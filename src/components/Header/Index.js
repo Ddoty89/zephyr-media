@@ -1,9 +1,11 @@
 import React from 'react';
 
+import HeaderImage from './HeaderImage'
+
 function Testing(props) {
 	return (
 		<div>
-			<h1>Testing again</h1>
+			<HeaderImage />
 		</div>
 	)
 }
