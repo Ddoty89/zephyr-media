@@ -1,0 +1,12 @@
+.header {
+	position:relative;
+}
+
+.headerVideo {
+	height:300px;
+	width:300px;
+	width:100%;
+	position: absolute;
+	z-index: -2;
+}
+
