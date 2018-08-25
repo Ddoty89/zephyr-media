@@ -13,11 +13,11 @@ class HeaderVideo extends React.Component {
             	className='headerVideo'
             	url='https://youtu.be/TWvmUaTyC8E' 
             	playing
-            	autoplay
+            	autoPlay
             	loop
             	width='100%'
             	height='690px'
-            	preload
+            	preload='true'
         	/>
             <HeaderImage />
         </div>

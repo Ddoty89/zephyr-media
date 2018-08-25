@@ -1,0 +1,27 @@
+.image1, 
+.image2,
+.image3, 
+.image4, 
+.image5,
+.image6 {
+	height:200px;
+	width:250px;
+	margin:10px;
+}
+
+.exampleImages {
+	width:90%;
+	margin:auto;
+}
+
+.exampleVideos {
+	margin-top: 50px;
+	height:400px;
+}
+
+.exampleVideo1,
+.exampleVideo2 {
+	margin:10px;
+	display:inline-block;
+
+}

@@ -1,12 +1,14 @@
 import React from 'react';
 
-import About from './About/About'
-import Services from './Services'
-import ExampleWork from './ExampleWork'
+import About from './About/About';
+import Services from './Services/Services';
+import ExampleWork from './ExampleWork/ExampleWork';
+
+import './IndexMain.css';
 
 function IndexMain(props) {
 	return (
-		<div>
+		<div className='main'>
 			<About />
 			<Services />
 			<ExampleWork />
