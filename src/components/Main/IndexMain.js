@@ -12,6 +12,7 @@ function IndexMain(props) {
 			<About />
 			<Services />
 			<ExampleWork />
+			<p className='emailDescription'>For questions or inquiries on service pricing please send emails to <a  className='email' href="mailto:Elias.r.fowler@gmail.com?subject=Zephyr Media">Elias Folwer</a></p>
 		</div>
 	)
 }
