@@ -1,5 +1,8 @@
+* {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
 .main {
 	box-sizing: border-box;
-	max-width: 1000px;
 	margin:auto;
 }

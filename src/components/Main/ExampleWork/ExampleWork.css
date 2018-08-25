@@ -1,3 +1,9 @@
+.examples {
+	padding-top:50px;
+	max-width: 1000px;
+	margin:auto;
+}
+
 .image1, 
 .image2,
 .image3, 
@@ -7,11 +13,13 @@
 	height:200px;
 	width:250px;
 	margin:10px;
+	border-radius: 3px;
 }
 
 .exampleImages {
 	width:90%;
 	margin:auto;
+	padding-top:75px;
 }
 
 .exampleVideos {

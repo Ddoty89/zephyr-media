@@ -1,0 +1,16 @@
+.whoWeAreTitle {
+	margin-top:100px;
+}
+
+.profile {
+	margin-top:50px;
+	height:250px;
+	width:400px;
+	border-radius: 10px;
+}
+
+.profileDescription {
+	padding-top:50px;
+	width:375px;
+	margin:auto;
+}

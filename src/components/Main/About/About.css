@@ -1,7 +1,11 @@
 .about {
-	margin-top:300px;
-	background: white;
-	width:90%;
-	margin-left:5%;
-	margin-right:5%;
+	padding-top:200px;
+	margin-top:225px;
+	background: #fffff2;
+	padding-bottom:200px;
+}
+
+.aboutDescription {
+	max-width:1000px;
+	margin:auto;
 }

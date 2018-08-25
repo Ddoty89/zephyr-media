@@ -1,0 +1,11 @@
+.capabilitiesTitle {
+	margin-top: 200px;
+	margin-bottom:50px;
+}
+
+.servicesDescription1,
+.servicesDescription2 {
+	max-width:1000px;
+	margin:10px;
+	margin:auto;
+}
