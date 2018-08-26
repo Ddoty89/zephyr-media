@@ -1,5 +1,19 @@
-@media only screen and (max-width: 1024px) {
-	.equipmentBackgroundImage {
+@media only screen and (max-width: 425px) {
+	.exampleVideo1,
+	.exampleVideo2 {
 		display:none;
+	}
+
+	.exampleVideos {
+		height:50px;
+	}
+
+	.about {
+		padding-top:50px;
+		padding-bottom:75px;
+	}
+
+	.capabilitiesTitle {
+		margin-top: 75px;
 	}
 }
