@@ -7,7 +7,7 @@ import HeaderImage from './HeaderImage'
 class HeaderVideo extends React.Component {
   render () {
     return (
-        <div className='header'>
+        <div className='headerContainer'>
             <   
             	ReactPlayer 
             	className='headerVideo'
@@ -15,8 +15,8 @@ class HeaderVideo extends React.Component {
             	playing
             	autoPlay
             	loop
-            	width='100%'
-            	height='690px'
+                height='100%'
+                width='100%'
             	preload='true'
         	/>
             <HeaderImage />

@@ -5,6 +5,7 @@ import Services from './Services/Services';
 import ExampleWork from './ExampleWork/ExampleWork';
 
 import './IndexMain.css';
+import './MainResponsiveDesign.css'
 
 function IndexMain(props) {
 	return (
