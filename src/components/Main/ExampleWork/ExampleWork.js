@@ -6,7 +6,7 @@ import './ExampleWork.css'
 function ExampleWork(props) {
 	return (
 		<div className='examples'>
-			<p>Here are some example of work done</p>
+			<p>Here are some examples of work done</p>
 			<div className='exampleImages'>
 				<img
 					className='image1'

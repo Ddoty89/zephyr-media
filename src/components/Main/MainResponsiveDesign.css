@@ -1,4 +1,9 @@
 @media only screen and (max-width: 768px) {
+	.exampleVideo1,
+	.exampleVideo2 {
+		display:none;
+	}
+
 	.about {
 		padding-top:75px;
 		padding-bottom:100px;
@@ -9,16 +14,11 @@
 	}
 
 	.exampleVideos {
-		height:600px;
+		height:50px;
 	}
 }
 
 @media only screen and (max-width: 425px) {
-	.exampleVideo1,
-	.exampleVideo2 {
-		display:none;
-	}
-
 	.exampleVideos {
 		height:50px;
 	}
