@@ -67,6 +67,7 @@ function ExampleWork(props) {
 	            	width='445px'
 	            	loop
 	            	preload='true'
+	            	muted
 	        	/>
 	        	<   
 	            	ReactPlayer 
@@ -78,6 +79,7 @@ function ExampleWork(props) {
 	            	width='445px'
 	            	loop
 	            	preload='true'
+	            	muted
 	        	/>
         	</div>
 		</div>
