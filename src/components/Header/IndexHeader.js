@@ -1,13 +1,13 @@
 import React from 'react';
 
-import HeaderVideo from './HeaderVideo'
+import HeaderBackground from './HeaderBackground'
 
 import './HeaderResponsiveDesign.css'
 
 function IndexHeader(props) {
 	return (
 		<div>
-			<HeaderVideo />
+			<HeaderBackground />
 		</div>
 	)
 }

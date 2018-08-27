@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './HeaderVideo.css'
+import './HeaderBackground.css'
 import ReactPlayer from 'react-player'
 import HeaderImage from './HeaderImage'
 
-class HeaderVideo extends React.Component {
+class HeaderBackground extends React.Component {
   render () {
     return (
         <div className='headerContainer'>
@@ -25,4 +25,4 @@ class HeaderVideo extends React.Component {
   }
 }
 
-export default HeaderVideo
+export default HeaderBackground
