@@ -7,9 +7,9 @@ export default class ExampleWork extends React.Component {
 	constructor(props) {
 		super(props)
 		this.state = {
-			exampleSet1: [],
-			exampleSet2: [],
-			exampleSet3: [],
+			exampleSet1: '',
+			exampleSet2: '',
+			exampleSet3: '',
 		}
 	}
 
@@ -37,10 +37,10 @@ export default class ExampleWork extends React.Component {
 		{picture:'https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%2012.jpg?raw=true'}
 	]
 
-	function cycleThroughImages() {
-		myArr = [1,2,3,4,5]
-		setInterval(myArr.map(item => console.log(item)),3000)
-		
+	rotateImages = (set) => {
+		this.setState({
+			set: set[0].picture
+		})
 	}
 
 	return (
@@ -50,7 +50,7 @@ export default class ExampleWork extends React.Component {
 				<img
 					className='image1'
 					alt='First Example'
-					src={} />
+					src={rotateImages(exampleSet1)} />
 				{/* <img
 					className='image2' 
 					alt='Second Example'
@@ -104,5 +104,3 @@ export default class ExampleWork extends React.Component {
 			
 
 }
-
-export default ExampleWork
