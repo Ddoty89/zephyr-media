@@ -3,7 +3,17 @@ import ReactPlayer from 'react-player'
 
 import './ExampleWork.css'
 
-function ExampleWork(props) {
+export default class ExampleWork extends React.Component {
+	constructor(props) {
+		super(props)
+		this.state = {
+			exampleSet1: [],
+			exampleSet2: [],
+			exampleSet3: [],
+		}
+	}
+
+	render() {
 	const exampleSet1 = [
 		{picture:'https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephra%20Media%20Photo%201.jpg?raw=true'},
 		{picture:'https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%204.jpg?raw=true'},
@@ -27,6 +37,12 @@ function ExampleWork(props) {
 		{picture:'https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%2012.jpg?raw=true'}
 	]
 
+	function cycleThroughImages() {
+		myArr = [1,2,3,4,5]
+		setInterval(myArr.map(item => console.log(item)),3000)
+		
+	}
+
 	return (
 		<div className='examples'>
 			<p>Here are some examples of work done</p>
@@ -34,16 +50,16 @@ function ExampleWork(props) {
 				<img
 					className='image1'
 					alt='First Example'
-					src='https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephra%20Media%20Photo%201.jpg?raw=true'/>
-				<img
+					src={} />
+				{/* <img
 					className='image2' 
 					alt='Second Example'
-					src='https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%203.jpg?raw=true'/>
+					src={cycle(exampleSet2)} />
 				<img
 					className='image3' 
 					alt='Third Example'
-					src='https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%209.jpg?raw=true'/>
-				<img
+					src={cycle(exampleSet3)} /> */}
+				{/* <img
 					className='image4'
 					alt='Fourth Example'
 					src='https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%2013.jpg?raw=true'/>
@@ -54,7 +70,7 @@ function ExampleWork(props) {
 				<img
 					className='image6' 
 					alt='Sixth Example'
-					src='https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%202.jpg?raw=true'/>
+					src='https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%202.jpg?raw=true'/> */}
 			</div>
 			<div className='exampleVideos'>
             	<   
@@ -84,6 +100,9 @@ function ExampleWork(props) {
         	</div>
 		</div>
 	)
+	}
+			
+
 }
 
 export default ExampleWork
