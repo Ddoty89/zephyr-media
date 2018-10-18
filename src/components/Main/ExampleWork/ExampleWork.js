@@ -27,6 +27,10 @@ function ExampleWork(props) {
 		{picture:'https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephyr%20Media%20Photo%2012.jpg?raw=true'}
 	]
 
+	setInterval(cycleThroughImages = (examples) => {
+		return examples.map(item => item.picture)
+	}, 5000)
+
 	return (
 		<div className='examples'>
 			<p>Here are some examples of work done</p>
@@ -34,7 +38,7 @@ function ExampleWork(props) {
 				<img
 					className='image1'
 					alt='First Example'
-					src='https://github.com/Ddoty89/Images-for-Zephyr-Media/blob/master/Zephra%20Media%20Photo%201.jpg?raw=true'/>
+					src={cycleThroughImages(exampleSet1)} />
 				<img
 					className='image2' 
 					alt='Second Example'
