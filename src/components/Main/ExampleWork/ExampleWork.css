@@ -1,35 +1,45 @@
 .examples {
-	padding-top:50px;
-	max-width: 1000px;
-	margin:auto;
+  padding-top: 50px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.image1, 
+.exampleSlides {
+  max-width: 1000px;
+}
+
+.example1,
+.example2,
+.example3 {
+  display: inline-block;
+  width: 300px;
+}
+
+.image1,
 .image2,
-.image3, 
-.image4, 
+.image3,
+.image4,
 .image5,
 .image6 {
-	height:200px;
-	width:250px;
-	margin:10px;
-	border-radius: 3px;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  border-radius: 3px;
 }
 
 .exampleImages {
-	width:100%;
-	margin:auto;
-	padding-top:75px;
+  width: 100%;
+  margin: auto;
+  padding-top: 75px;
 }
 
 .exampleVideos {
-	margin-top: 50px;
-	height:400px;
+  margin-top: 50px;
+  height: 400px;
 }
 
 .exampleVideo1,
 .exampleVideo2 {
-	margin:10px;
-	display:inline-block;
-
+  margin: 10px;
+  display: inline-block;
 }
